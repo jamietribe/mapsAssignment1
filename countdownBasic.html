@@ -1,0 +1,63 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+<title>New Orleans 2014 Mardi Gras Parade Schdule</title>
+<link rel="stylesheet" href="jquery.countdown.css">
+<link rel="stylesheet" type="text/css" href="styles.css" />
+<style type="text/css">
+#MardiGrasCountdown { width: 240px; height: 45px; }
+</style>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="jquery.plugin.js"></script>
+<script src="jquery.countdown.js"></script>
+<script>
+$(function () {
+	var austDay = new Date();
+	austDay = new Date(austDay.getFullYear() + 1, 1 - 1, 26);
+	$('#MardiGrasCountdown').countdown({until: austDay});
+	$('#year').text(austDay.getFullYear());
+});
+</script>
+</head>
+<body>
+ <div id="wrapper">
+		<div id="container">
+			
+ 
+<div id="defaultCountdown" >
+</div>
+
+ 
+
+<div class="greenBar-wrapper clearfix ">
+	<div id="greenBar" class="clearfix">
+		<div class="green-left  ">
+			<h3>Days Left Until <br class="br_green" /><span>Mardi Gras</span></h3>
+			<div id="MardiGrasCountdown" class="hasCountdown">
+            <span class="countdown-row countdown-show4">
+            	<span class="countdown-section">
+		</div>
+		 
+ </div></div>
+ <br/>
+ <iframe src="https://mapsengine.google.com/map/embed?mid=zesPJ-jy7s-c.kmdxk3QEHtBg" width="548" height="480"></iframe>
+
+	 	 
+	 
+  
+
+
+ 
+ 
+  
+			
+ 
+
+
+
+
+
+
+</body>
+</html>
